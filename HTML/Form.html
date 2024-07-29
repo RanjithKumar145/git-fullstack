@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<h1>Form</h1>
+</head>
+<body>
+    <Form>
+        Name:<input type="text" placeholder="Give ur name in caps" name="Name"  required><br><br>
+        Mail:<input type="email" placeholder="Give ur mail" value="rakesh@gamil.com" name="Email"  required><br><br>
+        Password:<input type="password" placeholder="Use number up case,low case & special char" name="Password" maxlength="50" required><br><br>
+        PhoneNumber:<input type="number" placeholder="Give ur mobile number" name="Mobile" max="10" required><br><br>
+        Meeting Time:<input type="time"  name="Time"  required><br><br>
+        Select your hobbies:<br><br>
+        <input type="checkbox">Planting</input>
+        <input type="checkbox">Reading News</input>
+        <input type="checkbox">Writing Nowels</input><br><br>
+        Feedback: <input type="Range" name="Feedback" step="50"></input><br><br>
+        Upload Resume:<input type="file" name="Resume" required></input><br><br>
+
+        Select Birth Year : <select name="Birth Year" >
+            <option value="1999">1998</option>
+            <option value="1998">1999</option>
+            <option value="1997">1997</option>
+            <option value="1996">1996</option>
+        </select> <br><br>
+        Select Your Gender:
+        <input type="radio" Value="Male">Male</input>
+        <input type="radio" Value="FeMale">FeMale</input><br><br>
+        Comments:<br><textarea placeholder="Add your Comments" rows="5" cols="50"></textarea>
+        <br>
+        <input type="button" Value="Submit"></input>
+        <button type="reset" disabled>Reset</button>
+    </Form>
+</body>
+</html>
